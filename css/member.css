@@ -1,0 +1,57 @@
+body{
+	height: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+.icon {
+   width: 2.1em; height: 2.05em;
+   vertical-align: -0.7em;
+   fill: currentColor;
+   overflow: hidden;
+}
+header{
+	height: 60px;
+	width: 100%;
+	background-color: #961432;
+	text-align: center;
+	line-height: 40px;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+.head_box{
+	height: 40px;
+	width: 50%;
+	margin: 10px auto;
+	position: relative;
+}
+.section_2{
+	height: 600;
+	width: 100%;
+}
+.enter_box{
+	height: 250px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.1px;
+}
+input{
+	height: 32px;
+	width: 90%;
+	border: 1px solid #961432;
+	margin-top: 16px;
+	font-size: 16px;
+}
+.enter_font{
+	height: 20px;
+	width: 90%;
+	margin: 0 auto;
+}
+a{
+	text-decoration:none;
+	color: #696969;
+	font-weight: bold;
+	font-size: 14px;
+}

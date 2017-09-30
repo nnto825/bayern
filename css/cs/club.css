@@ -1,0 +1,35 @@
+section div{
+	height: 35%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	transition: all 1s; 
+	margin-top: 10px;	
+}
+button{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	height: 30px;
+	width: 30%;
+	border-radius: 10px;
+	border: none;
+	background: #961432;
+	color: white;
+	outline: none;
+	z-index: 90;
+}
+section div img{
+	height: 200px;
+	width: 36%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+}
+section div p{
+	/*float: left;*/
+	width: 80%;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+}
